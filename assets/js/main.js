@@ -7,8 +7,10 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            message: 'Ciao Antonio!'
+            message: 'Ciao Antonio, benvenuto!',
+            percorso:"./assets/img/01.jpg",
         }
     }
 }).mount('#start_Vue')
+
 
